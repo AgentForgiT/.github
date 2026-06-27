@@ -1,0 +1,12 @@
+name: Reusable Validate
+
+on:
+  workflow_call:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder validation
+        run: echo "Add AgentForge validation checks here"
